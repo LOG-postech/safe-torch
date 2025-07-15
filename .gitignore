@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.cpython-310.*pyc
+./out/*.*
+*.out
+*.log
+*.json
+*.yaml
+wandb/
+./wandb/.*

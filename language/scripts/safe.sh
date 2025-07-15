@@ -1,0 +1,17 @@
+python main.py \
+    --model meta-llama/Llama-2-7b-hf \
+    --prune_method safe \
+    --sparsity_ratio 0.5 \
+    --sparsity_type "unstructured" \
+    --dataset c4 \
+    --nsamples 128 \
+    --seed 42 \
+    --batch_size 8 \
+    --learning_rate 2e-4 \
+    --epochs 30 \
+    --lmda 1e-3 \
+    --rho 2e-4 \
+    --interval 32 \
+    --activation False \
+    --beta1 0.9 \
+    --beta2 0.95 \
